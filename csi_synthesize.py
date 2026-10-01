@@ -1,8 +1,8 @@
 """Rebuild the CSI shards of chosen trajectories from a site's CSV file.
 
-    python synthesize_csi.py --site <site> --traj 1-25,251-260 --out stecath_shards <site>_64x8x8_raytracing_time_series.csv
-    python synthesize_csi.py --site <site> --per-profile 25 --out stecath_shards <site>_64x8x8_raytracing_time_series.csv
-    python synthesize_csi.py --site <site> --all --out stecath_shards <site>_64x8x8_raytracing_time_series.csv
+    python synthesize_csi.py --site <site> --traj 1-25,251-260 --out <site>_shards <site>_64x8x8_raytracing_time_series.csv
+    python synthesize_csi.py --site <site> --per-profile 25 --out <site>_shards <site>_64x8x8_raytracing_time_series.csv
+    python synthesize_csi.py --site <site> --all --out <site>_shards <site>_64x8x8_raytracing_time_series.csv
 
     Site options: (stecath, decarie, ericsson)
 
